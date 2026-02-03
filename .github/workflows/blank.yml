@@ -29,7 +29,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: user/app:latest
+          tags: mahijs/app:latest
           
       #- name: Build Docker image
       #  run: docker build -t ${{ secrets.DOCKER.USERNAME }}/my-nginx-app:latest .
